@@ -12,7 +12,11 @@ public class Bateria {
     }
 
     public int getCarga() {
-        return carga;
+        return this.carga;
+    }
+
+    public void setCarga(int carga) {
+        this.carga = carga;
     }
    
 }
