@@ -44,11 +44,9 @@ public class Robot {
          this.pasos+=pasos;
         resultado=pasos/100;
         bateria.setCarga(bateria.getCarga()-(resultado*10));   
-        }else{
-            System.out.println("sin carga de bateria");
-        }   
+         } 
+      }if (bateria.getCarga()<=10){
+            System.out.println("sin carga de bateria"+bateria.getCarga());
         }
-        
-        
-    }
+}
 }
