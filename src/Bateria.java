@@ -18,5 +18,5 @@ public class Bateria {
     public void setCarga(int carga) {
         this.carga = carga;
     }
-   
+    
 }

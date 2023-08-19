@@ -49,4 +49,7 @@ public class Robot {
             System.out.println("sin carga de bateria"+bateria.getCarga());
         }
 }
+   public void cargarBateria(){
+       bateria.setCarga(1000);
+    }
 }

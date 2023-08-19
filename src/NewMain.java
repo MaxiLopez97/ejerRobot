@@ -9,6 +9,10 @@ public class NewMain {
         System.out.println(robot.getBateria());
         robot.avanzar(100000);
         System.out.println(robot.getBateria());
+        robot.avanzar(100);
+        
+        robot.cargarBateria();
+        System.out.println(robot.getBateria());
     }
     
 }
