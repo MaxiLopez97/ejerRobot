@@ -46,7 +46,7 @@ public class Robot {
         bateria.setCarga(bateria.getCarga()-(resultado*10));   
          } 
       }if (bateria.getCarga()<=10){
-            System.out.println("sin carga de bateria"+bateria.getCarga());
+            System.out.println("sin carga de bateria..."+bateria.getCarga());
         }
 }
    public void cargarBateria(){
